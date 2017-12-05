@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Web", "RMS.Web\RMS.Web.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Data", "RMS.Data\RMS.Data.csproj", "{E21E2AC7-202D-4382-B898-6D543AEE0FAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Api", "RMS.Api\RMS.Api.csproj", "{1EA1AC57-28A7-4646-B89D-A5BD670699C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E21E2AC7-202D-4382-B898-6D543AEE0FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21E2AC7-202D-4382-B898-6D543AEE0FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E21E2AC7-202D-4382-B898-6D543AEE0FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA1AC57-28A7-4646-B89D-A5BD670699C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA1AC57-28A7-4646-B89D-A5BD670699C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA1AC57-28A7-4646-B89D-A5BD670699C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA1AC57-28A7-4646-B89D-A5BD670699C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
