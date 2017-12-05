@@ -42,5 +42,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RMS.Data\RMS.Data.csproj">
+      <Project>{e21e2ac7-202d-4382-b898-6d543aee0faa}</Project>
+      <Name>RMS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RMS.Models\RMS.Models.csproj">
+      <Project>{002f5608-238d-4cc7-8e28-875489d24d56}</Project>
+      <Name>RMS.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
