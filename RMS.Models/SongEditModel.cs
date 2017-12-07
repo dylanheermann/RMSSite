@@ -8,6 +8,8 @@ namespace RMS.Models
 {
    public class SongEditModel
     {
-
+        public int SongId { get; set; }
+        public string Title { get; set; }
+        public string Content { get; set; }
     }
 }
