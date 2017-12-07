@@ -49,6 +49,8 @@ namespace BlueBadgeSolution.Models
 
 
 
+
+
         public DbSet<SongEntity> Songs { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
