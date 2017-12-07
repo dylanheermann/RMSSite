@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="ISong.cs" />
     <Compile Include="ISongService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
