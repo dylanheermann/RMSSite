@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
@@ -52,6 +53,7 @@ namespace BlueBadgeSolution.Models
 
 
         public DbSet<SongEntity> Songs { get; set; }
+        public IEnumerable<object> Song { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

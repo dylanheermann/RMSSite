@@ -17,13 +17,15 @@ namespace RMS.Data
         public Guid OwnerId { get; set; }
 
         [Required]
-        public string Song { get; set; }
+        public string Title { get; set; }
         public string Description { get; set; }
         public string SongName { get; set; }
+        public string Content { get; set; }
 
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
 
         public DateTimeOffset? ModifiedUtc { get; set; }
+        
     }
 }

@@ -13,5 +13,6 @@ namespace RMS.Contracts
         bool EditSong(SongEditModel model);
         int ShowSongById();
         IEnumerable<SongCreateModel> GetSongs();
+        bool UpdateSong(SongEditModel model);
     }
 }

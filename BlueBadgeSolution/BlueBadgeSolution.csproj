@@ -268,10 +268,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Song\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Song\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -295,9 +295,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RMS.Contracts\RMS.Contracts.csproj">
+      <Project>{FE6FDC2C-23B2-46B2-A84A-829CD0A87C80}</Project>
+      <Name>RMS.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RMS.Models\RMS.Models.csproj">
       <Project>{002f5608-238d-4cc7-8e28-875489d24d56}</Project>
       <Name>RMS.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RMS.Services\RMS.Services.csproj">
+      <Project>{704e3a34-2ca6-4402-b2cd-f5a223b53abc}</Project>
+      <Name>RMS.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
