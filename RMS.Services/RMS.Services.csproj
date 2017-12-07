@@ -54,8 +54,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SongService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RMS.Contracts\RMS.Contracts.csproj">
+      <Project>{FE6FDC2C-23B2-46B2-A84A-829CD0A87C80}</Project>
+      <Name>RMS.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RMS.Data\RMS.Data.csproj">
       <Project>{e21e2ac7-202d-4382-b898-6d543aee0faa}</Project>
       <Name>RMS.Data</Name>
