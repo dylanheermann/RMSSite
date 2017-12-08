@@ -79,7 +79,7 @@ namespace RMS.Services
             }
         }
 
-        public bool UpdateSong(SongEdit model)
+        public bool UpdateSong(SongEditModel model)
         {
             using (var ctx = new ApplicationDbContext())
             {
